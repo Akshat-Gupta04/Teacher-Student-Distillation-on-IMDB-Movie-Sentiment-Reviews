@@ -100,3 +100,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **IMDB Dataset:** Provided by [Hugging Face Datasets](https://huggingface.co/datasets/imdb).
 - **Teacher Model:** [cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest).
 - **Student Model:** [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased).
+
+
+![Alt text](/results/figures/teacher_vs_student_accuracy.png)
