@@ -49,7 +49,7 @@ This project demonstrates **knowledge distillation** for sentiment analysis trai
     Run the run.ipynb file
 
     The script will:
-    - **Load** a subset of the IMDB dataset (2,000 training and 1,000 test examples).
+    - **Load** a subset of the IMDB dataset fetched from HuggingFace Platform.
     - **Annotate** these reviews using the teacher model with proper truncation and padding to handle long reviews.
     - **Train** the student model for 10 epochs on the teacher-generated data.
     - **Evaluate** both teacher and student performance against the original IMDB ground truth.
