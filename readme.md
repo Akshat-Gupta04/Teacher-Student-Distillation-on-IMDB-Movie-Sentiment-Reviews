@@ -1,4 +1,4 @@
-# Teacher-Student-Distillation on IMDB Movie Sentiment Reviews
+# Teacher Student Distillation on IMDB Movie Sentiment Reviews
 
 This project demonstrates **knowledge distillation** for sentiment analysis trained on the IMDB movie reviews dataset. In knowledge distillation, a large, highly-trained teacher model is used to annotate unlabeled or weakly labeled data. A smaller, more efficient student model is then trained on these teacher-generated annotations to mimic the teacher's behavior. Here, we use the teacher model [`cardiffnlp/twitter-roberta-base-sentiment-latest`](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) (a robust sentiment classifier fine-tuned on Twitter data) to annotate a subset of the IMDB dataset. The student model, [`distilbert-base-uncased`](https://huggingface.co/distilbert-base-uncased), is then fine-tuned for 10 epochs on this teacher-annotated data. Finally, the project evaluates and visualizes both teacher and student performances against the original binary sentiment labels (0 for negative, 1 for positive).
 
