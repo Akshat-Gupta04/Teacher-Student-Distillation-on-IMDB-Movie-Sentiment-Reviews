@@ -102,4 +102,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Student Model:** [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased).
 
 
-![Alt text](/results/figures/teacher_vs_student_accuracy.png)
+![Accuracy](/results/figures/teacher_vs_student_accuracy.png)
+![label Accuracy](/results/figures/teacher_vs_student_label_distribution.png)
